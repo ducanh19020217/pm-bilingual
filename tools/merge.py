@@ -23,9 +23,12 @@ for b in blocks:
         else:
             missing += 1
     else:
-        m = re.fullmatch(r'\* \[(.+)\]\((#chapter-\d+)\)', raw.strip())
-        if m and head_vi.get(m.group(1)) and head_vi[m.group(1)] != m.group(1):
-            raw = '* [%s / %s](%s)' % (m.group(1), head_vi[m.group(1)], m.group(2))
+        def toc(line):
+            m = re.fullmatch(r'\* \[(.+)\]\((#chapter-\d+)\)', line.strip())
+            if m and head_vi.get(m.group(1)) and head_vi[m.group(1)] != m.group(1):
+                return '* [%s / %s](%s)' % (m.group(1), head_vi[m.group(1)], m.group(2))
+            return line
+        raw = '\n'.join(toc(l) for l in raw.split('\n'))
     res.append(raw + b['sep'])
 out = os.path.join(ROOT, 'project_management_2nd_edition_song_ngu.md')
 open(out, 'w', encoding='utf-8').write(''.join(res))
