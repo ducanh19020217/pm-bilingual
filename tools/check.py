@@ -27,7 +27,13 @@ def check(n):
             errs.append('%s độ dài bất thường (%d → %d ký tự)' % (k, len(en), len(vi)))
     return errs
 
-names = sys.argv[1:] or sorted(f[:-5] for f in os.listdir(os.path.join(ROOT, 'chunks')))
+args = sys.argv[1:]
+if args == ['--existing']:   # dùng cho check của AgentHub: chỉ kiểm các chunk đã có out/
+    names = sorted(f[:-5] for f in os.listdir(os.path.join(ROOT, 'out')) if f.endswith('.json'))
+    if not names:
+        print('chưa có file out/*.json nào'); sys.exit(1)
+else:
+    names = args or sorted(f[:-5] for f in os.listdir(os.path.join(ROOT, 'chunks')))
 bad = 0
 for n in names:
     e = check(n)
