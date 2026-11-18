@@ -1,0 +1,60 @@
+Lộ trình miễn phí tôi đề xuất
+1. Bắt đầu ngay: PMI KICKOFF™ — 45 phút, miễn phí
+https://kickoff.pmi.org/terms
+PMI KICKOFF™ – Free Project Management Course
+
+Đây là khóa của chính Project Management Institute (PMI), tổ chức đứng sau PMP/CAPM.
+Khóa chỉ khoảng 45 phút, dành cho cả người chưa có chức danh Project Manager. Nó giới thiệu hai hướng quản lý dự án Agile và Predictive, có toolkit và hoàn thành xong có shareable badge. Viện Quản Lý Dự Án
+→ Tôi khuyên anh học cái này đầu tiên.
+
+2. Sau đó: OpenLearn – Project Management: The Start of the Project Journey
+https://www.open.edu/openlearn/mod/oucontent/view.php?intro=1&id=2796&section=0
+
+
+Project Management: The Start of the Project Journey
+Khóa này của The Open University, khoảng 35 giờ, và đặc biệt là miễn phí hoàn toàn + có Statement of Participation miễn phí. The Open University
+Nội dung khá ổn:
+Project → Feasibility → Risk → Decision Making → Project Lifecycle → Project Manager → Software Development
+
+Nó còn có riêng phần Software Development, nên khá hợp với người đang làm software như anh.
+
+3. Học thêm kỹ năng quản lý team
+https://www.open.edu/openlearn/mod/oucontent/view.php?id=27295&intro=1&section=0&utm_source=chatgpt.com
+Managing Virtual Project Teams – OpenLearn
+Khóa này khoảng 8 giờ, miễn phí. Nội dung đi vào communication, leadership, conflict resolution, delegation, negotiation, stakeholder và quản lý distributed/virtual team. The Open University
+Đây là những thứ một developer muốn chuyển sang PM thường thiếu nhiều hơn kiến thức kỹ thuật.
+
+4. Dùng kho khóa miễn phí chính thức của PMI
+PMI Free Project Management Courses
+Hiện PMI có hẳn một nhóm khóa miễn phí, bao gồm Project Management, giới thiệu PMP và các khóa AI dành cho PM.
+
+
+Tôi sẽ học theo thứ tự này
+Với trường hợp của anh, tôi sẽ không chạy theo chứng chỉ ngay mà đi:
+Tuần 1
+PMI KICKOFF → hiểu nghề PM
+↓
+Tuần 2–5
+OpenLearn Project Management → học nền tảng bài bản
+↓
+Tuần 6
+Managing Virtual Project Teams
+↓
+Tuần 7–10
+Lấy một software project thật rồi tự làm:
+Project Charter
+→ Stakeholder Register
+→ Scope
+→ WBS
+→ Timeline
+→ Risk Register
+→ Sprint Planning
+→ Weekly Status Report
+→ Retrospective
+Đây mới là phần tôi muốn anh tập trung. Với background developer, anh không thiếu kiến thức software, mà cần học cách chuyển từ tư duy:
+“Tôi phải code cái gì?”
+
+sang:
+“Team phải deliver cái gì, khi nào, ai chịu trách nhiệm, có risk gì, dependency ở đâu và stakeholder cần biết gì?”
+
+Sau khoảng 2–3 tháng học miễn phí + thực hành, nếu vẫn thấy PM phù hợp thì lúc đó mới bỏ tiền học/thi CAPM. Chưa cần tốn tiền ngay từ đầu.
